@@ -21,3 +21,5 @@
 </IfModule>
 
 Note : ./index.html if the index.html if your file is in root directory, else do add ./foldername/index.html
+
+Demo url : https://magna-somnium.com/jj/
