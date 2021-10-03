@@ -8,6 +8,7 @@
 2) npm run build
 3) use ftp manager such as FileZilla to upload the all the files in build to webserver
 4) edit .htmaccess file with the following code
+```
 <IfModule mod_rewrite.c>
 
   RewriteEngine On
@@ -19,6 +20,7 @@
   RewriteRule . /index.html [L]
 
 </IfModule>
+```
 
 Note : ./index.html if the index.html if your file is in root directory, else do add ./foldername/index.html
 
